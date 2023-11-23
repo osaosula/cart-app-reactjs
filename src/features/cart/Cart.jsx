@@ -34,6 +34,7 @@ function Cart() {
   const cart = useSelector(getCart);
   const dispatch = useDispatch();
   //console.log(cart);
+
   if (cart.length === 0) return <EmptyCart />;
   return (
     <div className="px-4 py-3">

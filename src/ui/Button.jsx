@@ -9,6 +9,7 @@ function Button({ children, disabled, to, type, onClick }) {
     secondary:
       'text-sm transition-colors-300 focus:inline-block rounded-full font-semibold uppercase tracking-wide text-stone-400 ring-offset-2 duration-300 hover:bg-stone-800 hover:text-stone-800 focus:bg-stone-300 focus:outline-none focus:ring focus:ring-stone-300 focus:text-stone-800 disabled:cursor-not-allowed md:px-6 md:py-3 px-4 py-3.5 border-2 border-stone-300',
     small: base + ' md:px-5 md:py-2.5 px-4 py-2 text-xs',
+    round: base + ' md:px-3.5 md:py-2 px-2.5 py-1 text-sm',
   };
   if (to)
     return (
